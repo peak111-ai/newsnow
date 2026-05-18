@@ -24,26 +24,26 @@ export const originSources = {
       },
     },
   },
-  "my-news-site": {
-    name: "审计署",
-    type: "hottest",
-    column: "china",
-    color: "gray",
-    home: "https://www.audit.gov.cn",
-  },
-   "my-news-site": {
-    name: "江西省审计厅",
-    type: "hottest",
-    column: "china",
-    color: "yellow",
-    home: "https://audit.jiangxi.gov.cn",
-  },
-   "my-news-site": {
+  nanchangAudit: {
     name: "南昌市审计局",
-    type: "hottest",
-    column: "china",
+    color: "blue",
+    home: "http://sjj.nc.gov.cn",
+    column: "news",
+    type: "realtime"
+  },
+  jiangxiAudit: {
+    name: "江西省审计厅",
     color: "green",
-    home: "https://sjj.nc.gov.cn",
+    home: "https://audit.jiangxi.gov.cn",
+    column: "news",
+    type: "realtime"
+  },
+  auditGov: {
+    name: "审计署",
+    color: "red",
+    home: "https://www.audit.gov.cn",
+    column: "news",
+    type: "realtime"
   },
   "zhihu": {
     name: "知乎",
