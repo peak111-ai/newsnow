@@ -15,11 +15,11 @@ export default defineSource({
     const $=cheerio.load(html);
     const list: Array<{ title: string; url: string; date: string }> = [];
 
-    $("div.list-right ul li").each((_, el) => {
+    $("div.list-container ul li").each((_, el) => {
       const a = $(el).find("a");
       const title = a.text().trim();
       const href = a.attr("href");
-      const date = $(el).find("span").text().trim();
+      const date = $(el).find(".time").text().trim();
       if (title && href) {
         list.push({
           title,
