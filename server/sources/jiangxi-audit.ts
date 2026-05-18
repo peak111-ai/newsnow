@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 
 export default defineSource({
   name: "江西省审计厅",
-  url: "https://audit.jiangxi.gov.cn/col/col4/index.html",
+  url: "https://audit.jiangxi.gov.cn/jxssjt/col/col28581/index.html",
   async fetch() {
     const res=await fetch(this.url, {
       headers: {
