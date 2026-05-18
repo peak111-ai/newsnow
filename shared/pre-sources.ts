@@ -24,19 +24,26 @@ export const originSources = {
       },
     },
   },
-  "shenjishu": {
+  "my-news-site": {
     name: "审计署",
     type: "hottest",
     column: "china",
     color: "gray",
     home: "https://www.audit.gov.cn",
   },
-   "jiangxishenjiting": {
-    name: "江西审计厅",
+   "my-news-site": {
+    name: "江西省审计厅",
     type: "hottest",
     column: "china",
-    color: "gray",
+    color: "yellow",
     home: "https://audit.jiangxi.gov.cn",
+  },
+   "my-news-site": {
+    name: "南昌市审计局",
+    type: "hottest",
+    column: "china",
+    color: "green",
+    home: "https://sjj.nc.gov.cn",
   },
   "zhihu": {
     name: "知乎",
