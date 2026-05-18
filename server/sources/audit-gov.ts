@@ -15,7 +15,7 @@ export default defineSource({
     const $=cheerio.load(html);
     const list: Array<{ title: string; url: string; date: string }> = [];
 
-    $("ul.news-list li").each((_, el) => {
+    $("ul.list li").each((_, el) => {
       const a = $(el).find("a");
       const title = a.text().trim();
       const href = a.attr("href");
