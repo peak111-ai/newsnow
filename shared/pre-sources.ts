@@ -24,6 +24,20 @@ export const originSources = {
       },
     },
   },
+  "shenjishu": {
+    name: "审计署",
+    type: "hottest",
+    column: "china",
+    color: "gray",
+    home: "https://www.audit.gov.cn",
+  },
+   "jiangxishenjiting": {
+    name: "江西审计厅",
+    type: "hottest",
+    column: "china",
+    color: "gray",
+    home: "https://audit.jiangxi.gov.cn",
+  },
   "zhihu": {
     name: "知乎",
     type: "hottest",
