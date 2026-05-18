@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 
 export default defineSource({
   name: "南昌市审计局",
-  url: "http://sjj.nc.gov.cn/nvsjj/gggs/index.shtml",
+  url: "http://sjj.nc.gov.cn/nvsjj/sjdt/list.shtml",
   async fetch() {
     const res=await fetch(this.url, {
       headers: {
