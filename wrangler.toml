@@ -1,0 +1,7 @@
+name = "newsnow"
+compatibility_date = "2025-05-18"
+
+[
+site
+]
+bucket = "./dist"
