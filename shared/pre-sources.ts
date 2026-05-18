@@ -24,21 +24,21 @@ export const originSources = {
       },
     },
   },
-  nanchangAudit: {
+  "nanchangAudit": {
     name: "南昌市审计局",
     color: "blue",
     home: "http://sjj.nc.gov.cn",
     column: "news",
     type: "realtime"
   },
-  jiangxiAudit: {
+  "jiangxiAudit": {
     name: "江西省审计厅",
     color: "green",
     home: "https://audit.jiangxi.gov.cn",
     column: "news",
     type: "realtime"
   },
-  auditGov: {
+  "auditGov": {
     name: "审计署",
     color: "red",
     home: "https://www.audit.gov.cn",
